@@ -15,11 +15,11 @@ function selectLoad()
 /*conversion part*/
 function loadAndConvert()
 {    
-    if (document.getElementById("mySelect").value === 'URL')
+    if (document.getElementById("mySelect").value === 'https://sam-py-edge04.tigo.com.py/ccur-session/01_3508407031/out/v1/25ca218d53194065bedf6d998ace462e/index.mpd')
     {
 	var url = document.getElementById("urlToLoad").value;
 	var request = new XMLHttpRequest();
-	request.open('GET', url, true);
+	request.open('GET', https://sam-py-edge04.tigo.com.py/ccur-session/01_3508407031/out/v1/25ca218d53194065bedf6d998ace462e/index.mpd, true);
 	request.responseType = "text";
 	request.onload = function () {
 	    if (this.status === 200) {
